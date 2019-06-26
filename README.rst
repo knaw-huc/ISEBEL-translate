@@ -1,49 +1,47 @@
 =======================
-ckanext-isebeltranslate
+ISEBEL Translate Plugin
 =======================
 
-ISEBEL translate plugin integrates the python machine translation script into CKAN. This simplifies work flow and gives unified portal to work with ISEBEL data.
+ISEBEL translate plugin integrates the python machine translation script into CKAN.
+This simplifies work flow and gives unified portal to work with ISEBEL data.
 
 
 ------------
 Requirements
 ------------
 
-Current working version of CKAN is 2.9.0a
+Current version of CKAN is 2.9.0a
 
 
 ------------
 Installation
 ------------
 
-To install ckanext-isebeltranslate:
+To install ckanext-isebeltranslate (``pip install -r requirements.txt`` to install all the dependencies):
 
-1. Activate your CKAN virtual environment, for example::
+1. Activate your CKAN virtual environment, go to your CKAN venv folder::
 
-     . /usr/lib/ckan/default/bin/activate
+     source activate
 
 2. Install the ckanext-isebeltranslate Python package into your virtual environment::
 
-     pip install ckanext-isebeltranslate
+     cp ckanext-isebeltranslate ./
 
 3. Add ``isebeltranslate`` to the ``ckan.plugins`` setting in your CKAN
-   config file (by default the config file is located at
-   ``/etc/ckan/default/production.ini``).
+   config file (by default the config file is
+   ``production.ini``).
 
-4. Restart CKAN. For example if you've deployed CKAN with Apache on Ubuntu::
+4. Restart CKAN. Restart Apache or restart docker container::
 
      sudo service apache2 reload
+     docker-compose restart ckan
 
 
 ---------------
 Config Settings
 ---------------
 
-Document any optional config settings here. For example::
-
-    # The minimum number of hours to wait before re-checking a resource
-    # (optional, default: 24).
-    ckanext.isebeltranslate.some_setting = some_default_value
+No configurable options yet. Will be documented here when available
 
 
 ------------------------
