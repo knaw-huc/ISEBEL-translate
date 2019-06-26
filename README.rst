@@ -1,57 +1,20 @@
-.. You should enable this project on travis-ci.org and coveralls.io to make
-   these badges work. The necessary Travis and Coverage config files have been
-   generated for you.
-
-.. image:: https://travis-ci.org/knaw-huc/ckanext-isebeltranslate.svg?branch=master
-    :target: https://travis-ci.org/knaw-huc/ckanext-isebeltranslate
-
-.. image:: https://coveralls.io/repos/knaw-huc/ckanext-isebeltranslate/badge.svg
-  :target: https://coveralls.io/r/knaw-huc/ckanext-isebeltranslate
-
-.. image:: https://pypip.in/download/ckanext-isebeltranslate/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-isebeltranslate/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-isebeltranslate/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-isebeltranslate/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-isebeltranslate/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-isebeltranslate/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-isebeltranslate/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-isebeltranslate/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-isebeltranslate/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-isebeltranslate/
-    :alt: License
-
-=============
+=======================
 ckanext-isebeltranslate
-=============
+=======================
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
+ISEBEL translate plugin integrates the python machine translation script into CKAN. This simplifies work flow and gives unified portal to work with ISEBEL data.
 
 
 ------------
 Requirements
 ------------
 
-For example, you might want to mention here which versions of CKAN this
-extension works with.
+Current working version of CKAN is 2.9.0a
 
 
 ------------
 Installation
 ------------
-
-.. Add any additional install steps to the list below.
-   For example installing any non-Python dependencies or adding any required
-   config settings.
 
 To install ckanext-isebeltranslate:
 
@@ -164,3 +127,4 @@ To publish a new version to PyPI follow these steps:
 
        git tag 0.0.2
        git push --tags
+
